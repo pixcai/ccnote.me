@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="zh-cmn-Hans">
-=======
-<html lang="zh-Hans-cmn">
->>>>>>> 4b8b1dd... React build
 
 <head>
 	<meta charset="UTF-8">
@@ -11,14 +7,7 @@
 	<title>ccnote.me</title>
 </head>
 
-<<<<<<< HEAD
 <body>
 </body>
 
 </html>
-=======
-<body>	
-</body>
-
-</html>
->>>>>>> 4b8b1dd... React build

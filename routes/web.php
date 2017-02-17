@@ -13,15 +13,8 @@
 
 $app->get('/', function () {
     return view('index');
-<<<<<<< HEAD
 });
 
 $app->get('notes', function () {
-		return view('notes');
-=======
->>>>>>> 4b8b1dd... React build
-});
-
-$app->get('notes', function () {
-		return view('notes');
+    return view('notes');
 });
