@@ -15,6 +15,6 @@ $app->get('/', function () {
     return view('index');
 });
 
-$app->get('notes', function () {
+$app->get('pixcai', function () {
     return view('notes');
 });
