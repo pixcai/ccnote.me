@@ -1,0 +1,8 @@
+.personal {
+
+}
+
+.notes {
+  display: flex;
+  justify-content: space-between;
+}

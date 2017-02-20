@@ -1,0 +1,54 @@
+.note-book {
+  display: inline-block;
+  width: 120px;
+  font-size: 14px;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.325);
+}
+
+.note-book__cover {
+  position: relative;
+  height: 140px;
+  background-size: 100% 100%;
+  background-color: lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.note-book__cover:hover .note-book__add-cover {
+  display: block;
+}
+
+.note-book__add-cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  transform: translate(30px, -30px) rotate(45deg);
+  background-color: rgba(0,0,0,.5);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.note-book__content {
+  display: block;
+  height: 100%;
+  cursor: pointer;
+}
+
+.note-book__title {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note-book,
+.note-book__title {
+  overflow: hidden;
+}

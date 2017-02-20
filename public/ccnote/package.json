@@ -1,8 +1,8 @@
 {
   "name": "ccnote.me",
   "version": "1.0.0",
-  "description": "A single page app",
-  "main": "./notes.js",
+  "description": "A single page app for ccnote.me",
+  "main": "./ccnote.js",
   "scripts": {
     "build": "roadhog build",
     "test": "roadhog test",
