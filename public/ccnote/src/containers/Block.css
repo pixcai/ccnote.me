@@ -1,0 +1,5 @@
+.block {
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+}

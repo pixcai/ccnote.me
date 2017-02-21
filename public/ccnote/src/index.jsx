@@ -1,9 +1,10 @@
+import './themes/index.css'
+import { Block } from './containers'
 import { Personal } from './components'
-import './index.css'
 
 class CCNote extends React.Component {
 	render () {
-		return <Personal />
+		return <Block><Personal /></Block>
 	}
 }
 

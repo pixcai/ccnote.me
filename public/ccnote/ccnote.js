@@ -1,1 +1,3 @@
-require('react-dom').render(require('./src'), document.getElementById('ccnote'))
+require('react-dom').render(
+  require('./src'), document.getElementById('ccnote')
+)
